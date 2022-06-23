@@ -782,7 +782,7 @@ public class DappBrowserFragment extends Fragment implements OnSignTransactionLi
         this.activeNetwork = networkInfo;
         if (networkInfo != null)
         {
-            currentNetwork.setText(networkInfo.getShortName());
+            currentNetwork.setText("Ramestta");
             Utils.setChainColour(currentNetworkCircle, networkInfo.chainId);
             viewModel.findWallet();
         } else {
